@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector</title>
+    <style>
+        .box:first-child{
+            background-color: pink;
+        }
+        .box:nth-child(2n+1){
+            background-color: cornflowerblue;
+        }
+        .box{
+            height: 100px;
+            background-color: green;
+        }
+        .box{
+            border: 1px solid black;
+        }
+        input[required="required"]{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box">
+        <input required="required" type="password">
+        <input type="submit">
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>
